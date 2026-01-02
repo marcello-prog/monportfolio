@@ -39,7 +39,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="#Projets"
+            href="#Projects"
             className="btn btn-sm btn-ghost focus:outline-none  focus:ring"
           >
             Projets
