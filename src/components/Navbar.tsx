@@ -1,4 +1,5 @@
 import { Container, Menu } from "lucide-react";
+
 const Navbar = () => {
   return (
     <div className="flex items-center justify-center md:justify-between p-4 text-3xl md:text-xl font-bold pl-0">
