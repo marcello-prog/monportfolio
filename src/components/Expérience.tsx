@@ -64,7 +64,7 @@ const experiences = [
 
 const Expérience = () => {
   return (
-    <div id="Expériences">
+    <div className="pt-10 mb-20" id="Expériences">
       <Title title="Expériences" />
       <div className="flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">
