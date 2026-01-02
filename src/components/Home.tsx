@@ -5,7 +5,7 @@ const Home = () => {
     <div className="flex flex-col-reverse md:flex-row justify-center items-center md:justify-between md:my-32 my-10" id="Home">
       <div className="flex flex-col">
         <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
-          Bonjour, <br /> je suis Marcello
+          Bonjour, <br /> je suis Marcel
           <span className="text-warning">Dev</span>
         </h1>
         <p className="my-4 text-center md:text-left">
