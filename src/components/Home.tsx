@@ -3,7 +3,7 @@ import img from "../assets/img3.jpg";
 const Home = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row justify-center items-center md:justify-between md:my-32 my-10" id="Home">
-      <div className="flex flex-col">
+      <div className="flex flex-col" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
           Bonjour, <br /> je suis Marcello
           <span className="text-warning">Dev</span>
@@ -19,7 +19,7 @@ const Home = () => {
         </a>
       </div>
 
-      <div className="md:ml-8">
+      <div className="md:ml-8" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="5s">
         <img src={img}
           alt="code image"
           className="w-96 h-96 rounded-lg mt-10 object-cover border-8 border-warning shadow-xl"

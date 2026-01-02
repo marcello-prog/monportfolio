@@ -66,8 +66,9 @@ const Expérience = () => {
   return (
     <div className="pt-10 mb-20" id="Expériences">
       <Title title="Expériences" />
-      <div className="flex flex-col-reverse md:flex-row justify-center items-center">
-        <div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">
+      <div className="flex flex-col-reverse md:flex-row justify-center items-center" data-aos="zoom-in">
+        <div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0" data-aos="fade-up"
+     data-aos-duration="3000">
           {skills.map((skill) => (
             <div
               key={skill.id}
@@ -85,7 +86,9 @@ const Expérience = () => {
           ))}
         </div>
 
-        <div className="md:ml-4 space-y-4 flex flex-col">
+        <div className="md:ml-4 space-y-4 flex flex-col" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
           {experiences.map((experience) => (
             <div key =  {experience.id} className=" bg-base-200 rounded-xl p-4">
               <div className="flex items-center">

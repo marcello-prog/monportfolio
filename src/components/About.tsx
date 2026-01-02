@@ -28,11 +28,11 @@ const About = () => {
     <div className="bg-base-300 p-10 mb-10 md:mb-10" id="About">
       <Title title="À propos" />
       <div className="md:h-screen flex justify-center items-center">
-        <div className="hidden md:block">
+        <div className="hidden md:block" data-aos="flip-left">
           <img src={img} alt="" className="w-96 object-cover rounded-xl " />
         </div>
 
-        <div className="md:ml-4 space-y-4">
+        <div className="md:ml-4 space-y-4" data-aos="fade-up">
 
           {aboutSections.map((section) => (
 

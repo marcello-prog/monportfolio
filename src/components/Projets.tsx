@@ -75,7 +75,8 @@ const Projets = () => {
   return (
     <div className="mt-20 pt-10" id="Projects">
       <Title title="Mes Projets" />
-      <div className="grid md:grid-cols-3 gap-4 ">
+      <div className="grid md:grid-cols-3 gap-4 " data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         {projects.map((projects) => (
           <div
             key={projects.id}
