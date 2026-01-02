@@ -1,28 +1,52 @@
-import { Container, Menu } from "lucide-react";
+import { Container } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-center md:justify-between p-4 text-3xl md:text-xl font-bold pl-0">
-      <a href="#" className="flex items-center">
-        <Container className="mr-2"/>
-        Marcel<span className="text-warning">DEV</span>
+   <div className="flex  items-center relative ">
+      <div className="flex justify-center md:justify-between px-40 left-0 p-5 top-0   fixed     z-20 w-full bg-base-100 items-center">
+        <a
+        href="#"
+        className="flex items-center font-bold text-3xl md:text-2xl w-50"
+        id="home"
+      >
+        <Container className="mr-1 " />
+        Marcel<span className="text-warning">Dev</span>
       </a>
-        
-        <ul className="hidden md:flex space-x-4">
+      <ul className="hidden md:flex gap-10 items-center">
         <li>
-          <a href="#Home" className="btn btn-sm btn-ghost rounded bg-red">Acceuil</a>
+          <a
+            href="#Acceuil"
+            className="btn btn-sm btn-ghost  focus:ring "
+          >
+            Acceuil
+          </a>
         </li>
         <li>
-          <a href="#About" className="btn btn-sm btn-ghost rounded bg-red">A propos</a>
+          <a
+            href="#About"
+            className="btn btn-sm btn-ghost focus:outline-none  focus:ring"
+          >
+            À propos
+          </a>
         </li>
         <li>
-          <a href="#Expérience" className="btn btn-sm btn-ghost rounded bg-red">Mes expériences</a>
+          <a
+            href="#Expériences"
+            className="btn btn-sm btn-ghost focus:outline-none focus:ring"
+          >
+            Expériences
+          </a>
         </li>
         <li>
-          <a href="#Projects" className="btn btn-sm btn-ghost rounded bg-red">Mes projets</a>
+          <a
+            href="#Projets"
+            className="btn btn-sm btn-ghost focus:outline-none  focus:ring"
+          >
+            Projets
+          </a>
         </li>
       </ul>
-      <Menu className="md:hidden " />
+      </div>
       
     </div>
   );
