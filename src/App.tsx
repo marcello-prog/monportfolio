@@ -13,20 +13,19 @@ export default function App() {
         <Navbar />
         <Home />
       </div>
-      <div >
-          <About />
-          <div className="p-5 md:px-[15%]">
-            <Expérience/>
-            <Projets/>
-            
-          </div>
-          <div>
-             <Footer />
-          </div>
-         
-          {/* Projets/> */}
+      <div>
+        <About />
       </div>
 
+      <div className="p-5 md:px-[15%]">
+        <Expérience />
+        <Projets />
+      </div>
+      <div>
+        <Footer />
+      </div>
+
+      {/* Projets/> */}
     </div>
-  )
+  );
 }
